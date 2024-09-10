@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Farmers Market Connect</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Add your custom CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background-color: #f8f9fa;
+      padding: 10px 0;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    .home {
+      padding: 40px 20px;
+      background-color: #f1f1f1;
+    }
+    .home h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #343a40;
+    }
+    .home .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .home .section {
+      margin-bottom: 40px;
+    }
+    .home .section h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #007bff;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 5px;
+    }
+    .home .section p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #495057;
+    }
+    .home .links {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .home .links a {
+      display: block;
+      width: 30%;
+      text-align: center;
+      text-decoration: none;
+      color: #007bff; /* Blue text */
+      border: 2px solid #007bff; /* Blue border */
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 20px;
+      background-color: #fff; /* White background */
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+    .home .links a:hover {
+      background-color: #f0f0f0; /* Light gray background */
+      color: #0056b3; /* Darker blue text */
+      border-color: #0056b3; /* Darker blue border */
+    }
+    .home .links img {
+      max-width: 60px; /* Slightly smaller icons */
+      margin-bottom: 10px;
+    }
+    .home .links span {
+      display: block;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="marketplace.html">Marketplace</a></li>
+        <li><a href="crops.html">Crops Information</a></li>
+        <li><a href="weather-tool.html">Weather Tool</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <h1>Welcome to Farmers Market Connect</h1>
+      <p>Connecting farmers, retailers, and consumers for a better market experience. Explore the sections below to find out more about what we offer.</p>
+
+      <div class="section">
+        <h2>For Farmers</h2>
+        <p>Join our platform to directly connect with buyers and get fair prices for your produce.</p>
+        <div class="links">
+          <a href="crops.html">
+            <img src="farmer.png" alt="For Farmers">
+            <span>For Farmers</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>For Retailers</h2>
+        <p>Discover a wide range of high-quality produce from trusted farmers and suppliers.</p>
+        <div class="links">
+          <a href="retailers.html">
+            <img src="https://via.placeholder.com/60x60?text=Retailers" alt="For Retailers">
+            <span>For Retailers</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>For Consumers</h2>
+        <p>Find fresh produce directly from the source, ensuring quality and fair pricing.</p>
+        <div class="links">
+          <a href="consumers.html">
+            <img src="https://via.placeholder.com/60x60?text=Consumers" alt="For Consumers">
+            <span>For Consumers</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

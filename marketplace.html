@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marketplace - Farmers Market Connect</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Add your custom CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f1f1f1;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #f8f9fa;
+      padding: 10px 0;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    .marketplace {
+      padding: 40px 20px;
+    }
+    .marketplace h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #343a40;
+    }
+    .marketplace .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .marketplace .section {
+      margin-bottom: 40px;
+    }
+    .marketplace .section h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #007bff;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 5px;
+    }
+    .marketplace .section p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #495057;
+    }
+    .marketplace .links {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .marketplace .links a {
+      display: block;
+      width: 45%;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      background-color: #007bff; /* Blue background */
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+    .marketplace .links a:hover {
+      background-color: #0056b3; /* Darker blue background */
+    }
+    .marketplace .links img {
+      max-width: 120px; /* Adjust size if needed */
+      margin-bottom: 10px;
+    }
+    .marketplace .links span {
+      display: block;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="marketplace.html">Marketplace</a></li>
+        <li><a href="crops.html">Crops Information</a></li>
+        <li><a href="weather-tool.html">Weather Tool</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="marketplace">
+    <div class="container">
+      <h1>Marketplace</h1>
+      <p>Explore products from leading online retailers to enhance your farming experience. Click on the links below to find the best deals on Amazon and Flipkart.</p>
+
+      <div class="section">
+        <h2>Amazon</h2>
+        <div class="links">
+          <a href="https://www.amazon.com" target="_blank">
+            <img src="amazon.png" alt="Amazon">
+            <span>Shop on Amazon</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>BigHaat</h2>
+        <div class="links">
+          <a href="https://www.bighaat.com/" target="_blank">
+            <img src="bighaat.png" alt="Flipkart">
+            <span>Shop on BigHaat</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
